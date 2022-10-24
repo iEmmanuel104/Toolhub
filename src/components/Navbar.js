@@ -6,7 +6,6 @@ export default function Navbar() {
     <nav className='navbar'>
       <div className='nav-center'>
         <Link to='/'>
-          {/* <h1>LOGOimg</h1> */}
           <img src={logo} alt='cocktail db logo' className='logo' />
         </Link>
         <ul className='nav-links'>
@@ -15,6 +14,9 @@ export default function Navbar() {
           </li>
           <li>
             <Link to='/leaderboard'>Leaderboard</Link>
+          </li>
+          <li>
+            <Link to='/records'>Records</Link>
           </li>
         </ul>
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Profiles from './profiles';
-import { Leaderboard } from './database';
+import Profiles from '../components/profiles';
+import { Leaderboard } from '../components/database';
 
 export default function Board() {
 

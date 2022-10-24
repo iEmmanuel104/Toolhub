@@ -19,6 +19,9 @@ export default function Home() {
                 <li className='true'>
                     <Link to='/leaderboard'>Leaderboard</Link>
                 </li>
+                <li>
+                    <Link to='/records'>Records</Link>
+                </li>
             </ul>
         </div>      
         <SearchForm />

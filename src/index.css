@@ -495,3 +495,44 @@ tool
     padding-top: 0;
   }
 }
+
+/* 
+====== 
+Records dashboard
+======
+*/
+
+.App {
+  text-align: center;
+  display: grid;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.records {
+  margin-top:4rem;
+  margin-bottom: 2rem;
+}
+
+.records-chart {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.records-title{
+  margin-bottom: 2rem;
+}
+.records-number{
+  margin-bottom: 2rem;
+  font-size: 6rem;
+  font-weight: 400;
+  color: var(--primaryColor);
+}
+.records-container {
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 2rem;
+
+}
