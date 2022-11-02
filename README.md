@@ -1,3 +1,39 @@
+This is a front end app for the outreachy application phase.
+
+There are 3 main pages according to the task specification
+
+# 1 --  HOME PAGE
+
+This page is the first page in the application and has the searvh form for getting specific tools from the mock database.
+
+![Alt text](/ReadmeImages/home.png?raw=true "Home Page")
+
+# 2 --  TOOL PAGE
+
+This shows how the homepage will look upon search for a specific tool, The tool and tool details are displayed as shown.
+
+![Alt text](/ReadmeImages/search.png?raw=true "Tool Page")
+
+# 3 -- LEADERBOARD PAGE
+
+This shows the leaderboard page which displays the top 10 tools in the mock database.
+
+![Alt text](/ReadmeImages/leaderboard.png?raw=true "Leaderboard Page")
+
+# 4 -- RECORD PAGE
+
+This page shows analytics for tools, the analytics are displayed as shown.
+
+![Alt text](/ReadmeImages/record.png?raw=true "Record Page")
+
+
+# 5 -- 404 PAGE/ ERROR PAGE
+
+This page shows the 404 page for the app, it is displayed when a page is not found.
+
+![Alt text](/ReadmeImages/error.png?raw=true "404 Page")
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
