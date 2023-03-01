@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Toolhub/static/css/main.c9c9e063.css",
-    "main.js": "/Toolhub/static/js/main.82ed367e.js",
+    "main.js": "/Toolhub/static/js/main.f44daa07.js",
     "static/js/787.caeda79e.chunk.js": "/Toolhub/static/js/787.caeda79e.chunk.js",
     "static/media/logo.svg": "/Toolhub/static/media/logo.f8816bd00f1e441e987df71c8a18c65b.svg",
     "index.html": "/Toolhub/index.html",
     "main.c9c9e063.css.map": "/Toolhub/static/css/main.c9c9e063.css.map",
-    "main.82ed367e.js.map": "/Toolhub/static/js/main.82ed367e.js.map",
+    "main.f44daa07.js.map": "/Toolhub/static/js/main.f44daa07.js.map",
     "787.caeda79e.chunk.js.map": "/Toolhub/static/js/787.caeda79e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9c9e063.css",
-    "static/js/main.82ed367e.js"
+    "static/js/main.f44daa07.js"
   ]
 }
