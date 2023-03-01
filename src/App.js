@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='Toolhub/' element={<Home />} />
         <Route path='leaderboard' element={<Board />} />
         <Route path='records' element={<RecordsDashboard />} />
         <Route path='*' element={<Error />} />
