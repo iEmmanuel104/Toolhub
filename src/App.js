@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Board from './pages/board';
 import RecordsDashboard from './pages/RecordsDashboard';
@@ -9,12 +9,12 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path='toolhub' element={<Home />} />
-        <Route path='leaderboard' element={<Board />} />
-        <Route path='records' element={<RecordsDashboard />} />
-        <Route path='*' element={<Error />} />
-      </Routes>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='leaderboard' element={<Board />} />
+          <Route path='records' element={<RecordsDashboard />} />
+          <Route path='*' element={<Error />} />
+        </Routes>
     </Router>
   );
 }
