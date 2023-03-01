@@ -14,7 +14,7 @@ export default function Home() {
         <div>
             <ul className='home-links'>
                 <li>
-                    <Link to='/'>Dashboard</Link>
+                    <Link to='/toolhub'>Dashboard</Link>
                 </li>
                 <li className='true'>
                     <Link to='/leaderboard'>Leaderboard</Link>
